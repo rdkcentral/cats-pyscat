@@ -1,0 +1,66 @@
+swagger: "2.0"
+info:
+  description: PySCAT Swagger API Spec
+  version: "1.0.0"
+  title: PySCAT REST API
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/scat/api"
+
+# Paths supported by the server application
+paths:
+  /devices:
+    get:
+      operationId: "pyscat.pyscat.devices"
+      tags:
+        - "DeviceConfig"
+      summary: "Get scat configuration."
+      description: "Provides scat config as defined in /etc/scat/devices.json"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            type: "object"
+            items:
+              properties:
+                devices:
+                  type: "array"
+                  properties:
+                    device:
+                      type: "object"
+                      properties:
+                        id:
+                          type: "string"
+                        type:
+                          type: "string"
+                        connectionProperties:
+                          type: "object"
+                          properties:
+                            port:
+                              type: "string"
+  /device/{deviceId}/write:
+    post:
+      operationId: "pyscat.pyscat.device_write"
+      tags:
+        - "DeviceConfig"
+      summary: "Write to device."
+      description: "Write To Device"
+      consumes:
+            - text/plain
+      parameters:
+        - name: deviceId
+          in : path
+          type: string
+          required: true
+          description: Device ID
+        - in: body
+          name: message
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: "Success"

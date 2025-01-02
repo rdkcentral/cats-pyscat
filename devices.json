@@ -1,0 +1,112 @@
+{
+        "devices": [{
+                "id": "000000000001",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO000"
+                }
+        }, {
+                "id": "000000000002",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO001"
+                }
+        }, {
+                "id": "000000000003",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO002"
+                }
+        }, {
+                "id": "000000000004",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO003"
+                }
+        }, {
+                "id": "000000000005",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO004"
+                }
+        }, {
+                "id": "000000000006",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO005"
+                }
+        }, {
+                "id": "000000000010",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO015"
+                }
+        }, {
+                "id": "000000000011",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO016"
+                }
+        }, {
+                "id": "000000000012",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO017"
+                }
+        }, {
+                "id": "000000000013",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO018"
+                }
+        }, {
+                "id": "000000000014",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO019"
+                }
+        }, {
+                "id": "000000000015",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO020"
+                }
+        }, {
+                "id": "000000000016",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO021"
+                }
+        }, {
+                "id": "000000000017",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO022"
+                }
+        }, {
+                "id": "000000000018",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO023"
+                }
+       }, {
+                "id": "000000000019",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO024"
+                }
+       }, {
+                "id": "00000000001A",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO025"
+                }
+       }, {
+                "id": "00000001001A",
+                "type": "DTA",
+                "connectionProperties": {
+                        "port": "/dev/ttyO126"
+                }
+       }],
+       "deviceType" : "digi"
+}

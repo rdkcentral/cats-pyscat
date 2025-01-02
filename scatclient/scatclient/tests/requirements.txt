@@ -1,0 +1,4 @@
+pytest-html~=4.1.1
+pytest-order
+pytest-dependency
+aiounittest
