@@ -22,7 +22,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyscat",
-    version="24.10.2",
+    version="1.0.0",
     author="CATS",
     description="SCAT 2.0",
     packages=setuptools.find_packages(),
